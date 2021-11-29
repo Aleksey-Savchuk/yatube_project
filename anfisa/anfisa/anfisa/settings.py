@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'x&$=ehhib89d#c*93d93rlx@dih2jl^r#zk!t2c2v@x53*ml=6'
+SECRET_KEY = 'ju79ky@isua=w@3+l@ag(m9_1w61emsgl)2sq+8mf&@66lz%pe'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ice_cream.apps.IceCreamConfig',
 ]
 
 MIDDLEWARE = [
